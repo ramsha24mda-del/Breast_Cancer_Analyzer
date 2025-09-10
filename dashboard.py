@@ -292,3 +292,4 @@ elif page == "📊 Insights":
     corr = X.corr()
     fig_corr = px.imshow(corr, text_auto=True, color_continuous_scale='Viridis', title="📊 Feature Correlation")
     st.plotly_chart(fig_corr)
+
